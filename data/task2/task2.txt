@@ -1,0 +1,26 @@
+1. prediction of music genre
+The full list of genres included in the CSV are
+ 'Electronic', 'Anime', 'Jazz', 'Alternative', 'Country', 'Rap', 'Blues', 'Rock', 'Classical', 'Hip-Hop'.
+
+variables including:
+acousticness	liveness	speechiness	valence	music_genre
+
+there are 10 classes:
+'Electronic', 0
+'Anime', 1
+'Jazz', 2
+'Alternative', 3
+'Country', 4
+'Rap', 5
+'Blues', 6
+'Rock', 7
+'Classical', 8
+'Hip-Hop', 9
+
+2. Diabetes binary classification
+
+variables including:
+HighBP	HighChol	CholCheck	BMI	Smoker	Sex	Age	Diabetes_binary
+
+
+
