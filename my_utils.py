@@ -20,9 +20,6 @@ def get_hyperparameters(model : keras.models.Sequential):
 
 def split_data(data, target, test_size=0.3, val_size=0.2):
 
-    data = data.astype(np.float32)
-    target = target.astype(np.float32)
-    
     train_data, test_data, train_target, test_target = train_test_split(data, target, test_size=test_size, random_state=0)
     
     # split the training data into train and validation sets (80:20)
